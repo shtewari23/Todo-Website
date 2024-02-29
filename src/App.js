@@ -3,13 +3,10 @@ import { connect } from 'react-redux';
 import TodoForm from './components/TodoForm';
 import TodoList from './components/TodoList';
 import backgroundImage from './images/backgroundImage.jpg'; // Import your background image file
-import noTasksImage from './images/image1.webp'; // Import your image file for when there are no tasks
 import { Rotate90DegreesCcw, X } from '@mui/icons-material';
 import darkBackgroundImage from './images/darkBackground.jpg';
 import giph2 from './images/giph2.gif';
 import './App.css';
-
-
 const App = React.memo(({ todos }) => {
   const [showNoTasksImage, setShowNoTasksImage] = useState(true);
   const [checked, setChecked] = React.useState(true);
