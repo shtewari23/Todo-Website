@@ -1,0 +1,71 @@
+/* TodoList.css */
+
+.todo-list {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(248, 249, 250);
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    min-height: 300px;
+  }
+  .todo-list-dark {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:  rgba(0, 0, 0, 0.853);
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-height: 42vh;
+    overflow-y: auto;
+    scrollbar-width: none; 
+  }
+  
+  .heading {
+    text-align: center;
+    margin-bottom: 20px;
+    color: grey;
+    text-transform:capitalize;
+    font-size: 32px;
+  }
+  
+  .clear-button {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .clear-button:hover {
+    background-color: #c82333;
+  }
+
+.todo-title {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .tooltip {
+    position: absolute;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    width: max-content;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    display: none;
+  }
+  
+  .todo-title:hover .tooltip {
+    display: block;
+  }
+  

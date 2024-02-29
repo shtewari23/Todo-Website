@@ -1,38 +1,82 @@
-.App {
+/* Global styles */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* App container styles */
+
+
+/* Todo container styles */
+.todo-container {
+  max-width: 600px;
+  max-height: 23em;
+  width: 20%; /* Adjust width for smaller screens */
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  margin-top: 10em; /* Center the container */
+}
+.todo-container-dark{
+  max-width: 600px;
+  max-height: 23em;
+  width: 20%; /* Adjust width for smaller screens */
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.853);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  margin-top: 10em; /* Center the container */
+}
+
+/* Heading styles */
+.heading {
   text-align: center;
+  margin-bottom: 20px;
+  color: grey;
+  text-transform: capitalize;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Image container styles */
+.image-container {
+  width: 42%; /* Adjust width for smaller screens */
+  height: 21em;
+  margin-left: 30px;
+  margin-right: 40px;
+  margin-top: 11.5em; /* Center the container */
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Todo list styles */
+.todo-list {
+  max-height: 42vh;
+  overflow-y: auto;
+  scrollbar-width: none; 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.dateContainer {
+  margin-left: 70px;
+  left: 0em;
+  right: 0em;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  align-content: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  position: absolute;
+  font-weight: bold;
 }
-
-.App-link {
-  color: #61dafb;
+.dark-gif{
+  border: 30px solid rgba(0, 0, 0, 0.853) ;
+  border-radius: 30px; 
+  height: 18em
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.light-gif{
+  border: 30px solid white ;
+  border-radius: 30px; 
+  height: 18em
 }

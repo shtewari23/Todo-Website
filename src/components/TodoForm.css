@@ -1,0 +1,70 @@
+/* TodoForm.css */
+
+/* Light mode styles */
+.todo-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .todo-input,
+  .todo-textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  .todo-input::placeholder,
+  .todo-textarea::placeholder {
+    color: #aaa;
+  }
+  
+  .add-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Dark mode styles */
+  .todo-form.dark-mode {
+    background-color: #333;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  }
+  
+  .todo-input.dark-mode,
+  .todo-textarea.dark-mode {
+    border-color: #555;
+    background-color: #444;
+    color: #eee;
+  }
+  
+  .todo-input.dark-mode::placeholder,
+  .todo-textarea.dark-mode::placeholder {
+    color: #888;
+  }
+  
+  .add-button.dark-mode {
+    background-color: #555;
+  }
+  
+  .add-button.dark-mode:hover {
+    background-color: #777;
+  }
+  
