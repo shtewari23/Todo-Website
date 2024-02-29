@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+Todo List App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##Description
 
-## Available Scripts
+This is a simple Todo List web application built with React and Redux. It allows users to manage their tasks by adding, editing, completing, and deleting them. The app also features a dark mode toggle for better user experience.
 
-In the project directory, you can run:
+##Features
 
-### `npm start`
+    Add new tasks with title and description
+    Edit existing tasks
+    Mark tasks as completed
+    Delete tasks
+    Toggle between light and dark mode for better readability
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ ##Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    Clone the repository: git clone https://github.com/shtewari23/Todo-Website.git
+    Navigate to the project directory: cd todo-list-app (It can be different in your system)
+    Install dependencies: npm install
+    Start the development server: npm start
+    Open your browser and visit http://localhost:3000 to view the app.
 
-### `npm test`
+##Usage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    To add a new task, type the task title and description in the input fields and click "Add Task".
+    To mark a task as completed, click the checkbox next to the task , it will strike the task marking it as complete.
+    To edit a task, click the edit icon next to the task, make the necessary changes, and click "Save".
+    To delete a task, click the delete icon next to the task.
+    To toggle between light and dark mode, click the toggle button in the top right corner.
 
-### `npm run build`
+##Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    React
+    Redux
+    JavaScript
+    HTML
+    CSS
+    Material-UI Icons
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+##Screenshots
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![image](https://github.com/shtewari23/Todo-Website/assets/80051211/b5107ca8-273a-48b6-8f1d-927a89e9a0fc)
+![image](https://github.com/shtewari23/Todo-Website/assets/80051211/38cf04ff-0bb8-4867-997e-0aee95712aa3)
+![image](https://github.com/shtewari23/Todo-Website/assets/80051211/fa9436b1-0e07-4ec7-9f37-2297fd2793cc)
+![image](https://github.com/shtewari23/Todo-Website/assets/80051211/6241c940-a7fc-4015-bf06-ceb901e1b82a)
+![image](https://github.com/shtewari23/Todo-Website/assets/80051211/c0e3dc9b-2854-4fad-afdb-b0c19a7ef156)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
