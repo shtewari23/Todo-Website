@@ -28,6 +28,7 @@ const App = React.memo(({ todos }) => {
   const toggleTheme = (event) => {
     setDarkMode(!darkMode); // Toggle dark mode
     setChecked(event.target.checked);
+    console.log(checked);
   };
 
   
